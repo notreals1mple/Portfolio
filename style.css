@@ -103,7 +103,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .name__link:hover { 
-    color: #fce38a;
+    color: white;
 }
 
 .name__link:hover:after {
