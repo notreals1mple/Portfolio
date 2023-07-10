@@ -1,3 +1,7 @@
+*{
+    cursor: url('images/icons/cursor.png'), auto;
+}
+
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -29,7 +33,163 @@ h1,h2,h3,h4,h5,h6 {
     width: 100%;
     height: 100vh;
 
-    background: url("images/intro.jpg") center no-repeat;
+    background-color: #060606;
     -webkit-background-size: cover;
     background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    
+}
+
+.logoImage{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.logoText {
+    font-family: bold;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+/* Header */
+.header{
+
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+    background-color: #131313;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;;
+    align-items: center;
+
+}
+
+.header__logo {
+    font-size: 30px;
+    font-weight: 700px;
+    color: #fff;
+
+
+
+
+}
+
+.name__link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    position: relative;
+
+    color: #fff;
+    text-decoration: none;
+
+    transition: color .1s linear;
+}
+
+.name__link:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3%;
+    display: none;
+
+    background-color: #fff;
+
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    z-index: 1;
+    
+    transition: opacity 0.2 linear;
+}
+
+.name__link:hover { 
+    color: #fce38a;
+}
+
+.name__link:hover:after {
+    display: block;
+} 
+
+/* Nav */
+.nav{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav__link{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+
+    color: #fff;
+    text-decoration: none;
+
+    transition: color .1s linear;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav__link:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3%;
+    display: none;
+
+    background-color: #fff;
+
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    z-index: 1;
+    
+    transition: opacity 0.1 bold;
+}
+
+.nav__link:hover { 
+    background-color: #292929;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+/* Footer */
+
+
+.footer{
+
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+    background-color: #131313;
+
+
+    font-size: 17px;
+    font-weight: 20px;
 }
