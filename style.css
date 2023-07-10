@@ -32,7 +32,6 @@ h1,h2,h3,h4,h5,h6 {
 .intro {
     width: 100%;
     height: 100vh;
-
     background-color: #060606;
     -webkit-background-size: cover;
     background-size: cover;
@@ -54,10 +53,8 @@ h1,h2,h3,h4,h5,h6 {
     padding-top: 50px;
 }
 
-
 /* Header */
 .header{
-
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -66,7 +63,6 @@ h1,h2,h3,h4,h5,h6 {
     left: 0;
     right: 0;
     z-index: 1000;
-
     background-color: #131313;
 }
 
@@ -74,17 +70,12 @@ h1,h2,h3,h4,h5,h6 {
     display: flex;
     justify-content: space-between;;
     align-items: center;
-
 }
 
 .header__logo {
     font-size: 30px;
     font-weight: 700px;
     color: #fff;
-
-
-
-
 }
 
 .name__link{
@@ -92,10 +83,8 @@ h1,h2,h3,h4,h5,h6 {
     vertical-align: top;
     margin: 0 15px;
     position: relative;
-
     color: #fff;
     text-decoration: none;
-
     transition: color .1s linear;
 }
 
@@ -105,14 +94,11 @@ h1,h2,h3,h4,h5,h6 {
     width: 100%;
     height: 3%;
     display: none;
-
     background-color: #fff;
-
     position: absolute;
     top: 100%;
     left: 0%;
     z-index: 1;
-    
     transition: opacity 0.2 linear;
 }
 
@@ -134,10 +120,8 @@ h1,h2,h3,h4,h5,h6 {
     display: inline-block;
     vertical-align: top;
     position: relative;
-
     color: #fff;
     text-decoration: none;
-
     transition: color .1s linear;
     padding-left: 25px;
     padding-right: 25px;
@@ -151,14 +135,11 @@ h1,h2,h3,h4,h5,h6 {
     width: 100%;
     height: 3%;
     display: none;
-
     background-color: #fff;
-
     position: absolute;
     top: 100%;
     left: 0%;
     z-index: 1;
-    
     transition: opacity 0.1 bold;
 }
 
@@ -171,13 +152,8 @@ h1,h2,h3,h4,h5,h6 {
     padding-bottom: 10px;
 }
 
-
-
 /* Footer */
-
-
 .footer{
-
     width: 100%;
     padding-top: 18px;
     padding-bottom: 18px;
@@ -186,10 +162,7 @@ h1,h2,h3,h4,h5,h6 {
     left: 0;
     right: 0;
     z-index: 1000;
-
     background-color: #131313;
-
-
     font-size: 17px;
     font-weight: 20px;
 }
