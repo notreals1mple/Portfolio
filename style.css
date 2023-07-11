@@ -1,10 +1,11 @@
 *{
     cursor: url('images/icons/cursor.png'), auto;
+
 }
 
 body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
 
     font-size: 15px;
     line-height: 1.6;
@@ -166,3 +167,126 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 17px;
     font-weight: 20px;
 }
+
+
+
+
+
+/* TEAM */
+.container__team{
+margin-top: 10px;
+}
+
+.blocks {
+    width: 100%;
+    height: 100vh;
+    background-color: #060606;
+    -webkit-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    
+}
+
+.block_1 h2, .block_2 h2, .block_3 h2, .block_4 h2{
+    font-family: "Nunito";
+    font-weight: normal;
+    font-size: 20px;
+        padding-top: -20px;
+}
+
+.block_1{
+    background-color: #131313;
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 300px;
+    margin: 15px;
+    display:inline-block;
+}
+
+.block_2{
+    background-color: #131313;
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 300px;
+    margin: 15px;
+    display:inline-block;
+}
+
+.block_3{
+    background-color: #131313;
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 300px;
+    margin: 15px;
+    display:inline-block;
+}
+
+.block_4{
+    background-color: #131313;
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 300px;
+    margin: 15px;
+    display:inline-block;
+}
+
+.btn1 {
+    display: inline-block; 
+    box-sizing: border-box;
+    margin: 0 15px 15px 0;
+    border-radius: 50px;
+    height: 25px;
+    line-height: 46px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* griffith1deady */
+.container__griffith1deady{
+    margin-top: 10px;
+    }
+    
+.griffith1deady {
+    background-color: #060606;
+    -webkit-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    }
+        
+.block1__griffith1deady{
+    font-family: "Nunito";
+    font-weight: normal;
+    font-size: 20px;
+    padding-top: -20px;
+    background-color: #131313;
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 100%;
+    margin: 15px;
+    display:inline-block;
+    }
+
+.block2__griffith1deady{
+    font-family: "Nunito";
+    font-weight: normal;
+    font-size: 20px;
+    padding-top: -20px;
+    background-color: #131313;
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 100%;
+    margin: 15px;
+    display:inline-block;
+    }
